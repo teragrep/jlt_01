@@ -1,0 +1,10 @@
+{
+  "nomatch": "unknown",
+  "type": "string",
+  "table": [
+    {
+      "index": "gone",
+      "value": null
+    }
+  ]
+}

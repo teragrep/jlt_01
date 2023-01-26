@@ -1,0 +1,18 @@
+{
+  "nomatch": "unknown",
+  "type": "sparseArray",
+  "table": [
+    {
+      "index": "3",
+      "value": "trois"
+    },
+    {
+      "index": "5",
+      "value": "cinq"
+    },
+    {
+      "index": "10",
+      "value": "dix"
+    }
+  ]
+}

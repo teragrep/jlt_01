@@ -1,0 +1,18 @@
+{
+  "nomatch": "unknown",
+  "type": "string",
+  "table": [
+    {
+      "index": "one",
+      "value": "un"
+    },
+    {
+      "index": "two",
+      "value": "deux"
+    },
+    {
+      "index": "three",
+      "value": "trois"
+    }
+  ]
+}
