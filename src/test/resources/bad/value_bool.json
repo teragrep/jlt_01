@@ -1,0 +1,14 @@
+{
+  "nomatch": "unknown",
+  "type": "string",
+  "table": [
+    {
+      "index": "yes",
+      "value": true
+    },
+    {
+      "index": "no",
+      "value": false
+    }
+  ]
+}

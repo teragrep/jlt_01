@@ -1,0 +1,12 @@
+{
+  "nomatch": "unknown",
+  "type": "string",
+  "table": [
+    {
+      "index": "object",
+      "value": {
+        "invalid": true
+      }
+    }
+  ]
+}
