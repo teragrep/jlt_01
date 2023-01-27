@@ -48,7 +48,7 @@ jobs:
       - name: Download Coverity
         if: steps.cache_coverity.outputs.cache-hit != 'true'
         run: |
-          wget --quiet https://scan.coverity.com/download/linux64 --post-data "token=${{ secrets.COVERITY_TOKEN }}&project=jlt_01" -O ${{ env.COVERITY }}.tgz
+          wget --quiet https://scan.coverity.com/download/linux64 --post-data "token=${{ secrets.COVERITY_TOKEN }}&project=teragrep%2Fjlt_01" -O ${{ env.COVERITY }}.tgz
           mkdir -p ${{ env.COVERITY }}
           tar zxvf ${{ env.COVERITY }}.tgz -C ${{ env.COVERITY }} --strip-components 1
 
@@ -64,4 +64,4 @@ jobs:
             --form file=@jlt_01.tgz \
             --form version="${GITHUB_REF##*/}" \
             --form description="automated upload" \
-            https://scan.coverity.com/builds?project=jlt_01
+            https://scan.coverity.com/builds?project=teragrep%2Fjlt_01
