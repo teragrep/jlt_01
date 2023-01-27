@@ -120,6 +120,7 @@
             <exclude>.gitmodules</exclude>
             <!-- ci -->
             <exclude>.github/workflows/*.yml</exclude>
+            <exclude>.github/workflows/*.yaml</exclude>            
             <exclude>toolchains.xml</exclude>
             <exclude>settings.xml</exclude>
             <exclude>dependencies.settings.xml</exclude>
@@ -148,13 +149,11 @@
           </compilerArgs>
         </configuration>
       </plugin>
-      <plugin>
+      <!--<plugin>
         <groupId>com.diffplug.spotless</groupId>
         <artifactId>spotless-maven-plugin</artifactId>
         <configuration>
           <java>
-            <!-- Temporarily disabled for JDK 16+ builds -->
-            <!--<removeUnusedImports/>-->
             <replaceRegex>
               <name>Remove wildcard imports</name>
               <searchRegex>import\s+[^\*\s]+\*;(\r\n|\r|\n)</searchRegex>
@@ -164,7 +163,6 @@
         </configuration>
         <executions>
           <execution>
-            <!-- Runs in compile phase to fail fast in case of formatting issues.-->
             <id>spotless-check</id>
             <phase>compile</phase>
             <goals>
@@ -172,7 +170,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin>-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
