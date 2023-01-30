@@ -1,6 +1,13 @@
 name: Coverity Scan
 
 on:
+  release:
+    types: [published]
+    secrets:
+      COVERITY_TOKEN:
+        required: true
+      COVERITY_EMAIL:
+        required: true
   pull_request_review:
     types: [submitted]
     secrets:
