@@ -27,7 +27,7 @@ To be announced
 
 // Change the repository name in the issues link to match with your project's name
 
-You can involve yourself with our project by https://github.com/teragrep/repo-template/issues/new/choose[opening an issue] or submitting a pull request.
+You can involve yourself with our project by https://github.com/teragrep/jlt_01/issues/new/choose[opening an issue] or submitting a pull request.
 
 Contribution requirements:
 
